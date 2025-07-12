@@ -1,0 +1,33 @@
+{
+  "name": "elevenlabs-text-to-speech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steven-coding/elevenlabs-text-to-speech.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steven-coding/elevenlabs-text-to-speech/issues"
+  },
+  "homepage": "https://github.com/steven-coding/elevenlabs-text-to-speech#readme",
+  "dependencies": {
+    "@elevenlabs/elevenlabs-js": "^2.6.0",
+    "@types/node": "^24.0.13",
+    "dotenv": "^17.2.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
