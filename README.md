@@ -68,6 +68,29 @@ View all available voices:
 npm start textfile.txt --list-voices
 ```
 
+### Batch Processing
+
+Process all text files in a directory (processes files alphabetically, skipping those with existing MP3s):
+```bash
+npm run batch path/to/directory
+```
+
+Use a specific voice for batch processing:
+```bash
+npm run batch path/to/directory "Rachel"
+```
+
+Use a specific voice and model for batch processing:
+```bash
+npm run batch path/to/directory "Rachel" "eleven_flash_v2_5"
+```
+
+**Batch Processing Features:**
+- Processes all `.txt` files in the specified directory
+- Files are processed in alphabetical order
+- Automatically skips files that already have corresponding `.mp3` files
+- Uses the same voice and model configuration as single file processing
+
 ### Configuration Priority
 
 The application uses the following priority order:
